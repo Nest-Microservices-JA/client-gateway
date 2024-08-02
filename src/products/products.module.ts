@@ -4,8 +4,7 @@ import { ProductsController } from './products.controller';
 import { PRODUCT_SERVICE, envs } from 'src/config';
 
 @Module({
-  controllers: [ProductsController],
-  providers: [],
+  controllers: [ProductsController],  
   imports: [
     ClientsModule.register([
       { 
